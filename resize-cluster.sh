@@ -22,7 +22,7 @@ echo ""
 
 echo -e "\nbuild docker hadoop image\n"
 
-# rebuild kiwenlau/hadoop image
-sudo docker build -t kiwenlau/hadoop:1.0 .
+# rebuild aiur/hadoop image
+sudo docker build -t aiur/hadoop:2.7.2 .
 
 echo ""
